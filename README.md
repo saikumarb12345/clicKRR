@@ -1,6 +1,8 @@
-# ClicKR Webpage
+# ClicKRRR Webpage
 
-ClicKR is a simple webpage featuring a button that triggers a scrolling text animation. The background color and styles have been customized to create an appealing design.
+[ClicKRRR](https://clickrrr.vercel.app/) is a simple webpage featuring a button that triggers a scrolling text animation. The background color and styles have been customized to create an appealing design.
+
+**Website Link**: [ClicKRRR](https://clickrrr.vercel.app/)
 
 ## Features
 
@@ -25,5 +27,5 @@ ClicKR is a simple webpage featuring a button that triggers a scrolling text ani
 This webpage is designed to work on modern web browsers. Ensure that you have a compatible browser to experience the full functionality.
 
 
-# Enjoy using ClicKR!
+# Enjoy using [ClicKRRR](https://clickrrr.vercel.app/)
 
