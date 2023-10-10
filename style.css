@@ -1,0 +1,76 @@
+body, h1, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #A1C4FD  , #C2E9FB);
+    font-family: Arial, sans-serif; 
+}
+
+/* styles for header */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #1dd0f0; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #0582ff , #0582ff ); 
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent; 
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.button {
+    background-color: #00e426; 
+    margin-top: 30px;
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+/* animation for scrolling text */
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(-100%) rotate(0deg);
+        opacity: 0.8; 
+        color: #f909d1;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    100% {
+        transform: translateX(200%);
+        opacity: 0.8; 
+        color: rgb(0, 255, 13);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+
+/* Styles for the scrolling text */
+.scrolling-text {
+    font-size: 50px;
+    animation: scrollAnimation 8s linear infinite;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    white-space: nowrap;
+}
